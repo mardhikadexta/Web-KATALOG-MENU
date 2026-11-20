@@ -1,0 +1,398 @@
+/* awal navbar */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 1001px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: #f8f6f5;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: rgb(5, 5, 0);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(244, 242, 242);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.order {
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* akhir navbar */
+
+
+/* AWAL BANNER */
+#home {
+    margin: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.kolom {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #121212;
+    width: 50%;
+}
+
+.kolom .deskripsi {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0b0700;
+    line-height: 25px;
+}
+
+p {
+    font-family: 'comic sans ms';
+    color: #0f0900;
+    line-height: 20px;
+}
+
+#home h2 {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #f0960e; 
+    width: 100%;
+    line-height: 60px;
+}
+
+/* pembungkus gambar banner */
+.gambar {
+    margin-top: 50px;
+    width: 480px;
+    height: auto;
+    float: right;
+    border-radius: 24px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(246, 182, 44, 0.7);
+    transition: transform 0.3s ease;
+}
+
+a.reservasi {
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+/* AKHIR BANNER */
+
+
+/* ================= AWAL MENU (PENYESUAIAN GAMBAR) ================= */
+.menu-section {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.judul-menu {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f0960e;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membagi 3 kolom rata */
+    gap: 30px;
+}
+
+.menu-card {
+    background-color: #fae4b8; /* Warna krem sesuai gambar */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.menu-desc {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.menu-desc h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.menu-desc p {
+    font-family: 'Arial', sans-serif; /* Pakai Arial agar teks kecil rapi */
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333;
+}
+/* ================= AKHIR MENU ================= */
+
+
+/* ================= AWAL FOOTER (PENYESUAIAN GAMBAR) ================= */
+footer {
+    background-color: #111;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-col p {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.center-col {
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons span {
+    display: inline-block;
+    background-color: #fff;
+    color: #111;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #888;
+}
+/* ================= AKHIR FOOTER ================= */
+
+
+/* === TAMBAHAN AGAR TIDAK GEPENG DI HP === */
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90%; /* Lebar menyesuaikan layar HP */
+    }
+    .menu-grid {
+        grid-template-columns: repeat(1, 1fr); /* Menu jadi turun ke bawah */
+    }
+    #home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .kolom {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .gambar {
+        width: 100%;
+        float: none;
+    }
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    nav ul li {
+        float: none;
+        display: inline-block;
+    }
+}
+/* BOOK A TABLE */
+.book-section {
+    padding: 60px 8%;
+}
+
+.book-section h2 {
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.book-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.book-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.book-form input,
+.book-form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 100%;
+}
+
+.book-form button {
+    background: #ffbe33;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.book-map {
+    flex: 1;
+}
+
+.book-map iframe {
+    border-radius: 8px;
+}
+
+/* KOMENTAR REKANAN */
+.testimonial-section {
+    padding: 60px 8%;
+}
+
+.testimonial-section h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: #222831;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.testimonial-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.testimonial-card h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.testimonial-card span {
+    font-size: 12px;
+}
+
+/* RESPONSIVE HP */
+@media (max-width: 768px) {
+    .book-container {
+        flex-direction: column;
+    }
+
+    .book-form,
+    .book-map {
+        width: 100%;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+    }
+}
